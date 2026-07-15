@@ -1,8 +1,11 @@
 public class Bai1 {
     public static void main(String[] args) {
-        System.out.println("Bảng cửu chương của 2");
-        for (int i = 1; i <= 9; i++) {
-            System.out.println("2 x " + i + " = " + (2 * i));
+        for (int n = 2; n <= 9; n++) {
+            System.out.println("Bang cuu chuong " + n);
+            for (int i = 1; i <= 9; i++) {
+                System.out.println(n + " x " + i + " = " + (n * i));
+            }
+            System.out.println();
         }
     }
 }
